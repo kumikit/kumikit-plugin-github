@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GitHub settings",
+  "type": "object",
+  "properties": {
+    "token": {
+      "type": "string",
+      "title": "GitHub personal access token",
+      "description": "A fine-grained personal access token scoped only to the repositories and permissions you need (Issues, Pull requests, Checks). Stored in Kumikit's secret store.",
+      "x-secret": "github-token"
+    }
+  }
+}

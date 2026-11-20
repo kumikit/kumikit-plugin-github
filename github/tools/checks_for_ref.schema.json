@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["owner", "repo", "ref"],
+  "properties": {
+    "owner": { "type": "string", "minLength": 1 },
+    "repo": { "type": "string", "minLength": 1 },
+    "ref": { "type": "string", "minLength": 1, "description": "Commit SHA, branch name or tag." }
+  }
+}
