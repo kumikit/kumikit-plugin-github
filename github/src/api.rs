@@ -50,7 +50,10 @@ fn with_headers(mut req: Request, token: Option<&str>) -> Request {
     req = req
         .header("accept", "application/vnd.github+json")
         .header("x-github-api-version", "2022-11-28")
-        .header("user-agent", "kumikit-github/0.1.0")
+        .header(
+            "user-agent",
+            concat!("kumikit-github/", env!("CARGO_PKG_VERSION")),
+        )
         .timeout(TIMEOUT);
     if let Some(t) = token
         && !t.is_empty()

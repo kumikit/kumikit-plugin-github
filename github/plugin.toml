@@ -1,7 +1,7 @@
 # GitHub REST API tools over outgoing HTTPS (`api.github.com`) with a fine-grained token.
 id = "kumikit.github"
 name = "GitHub"
-version = "0.1.0"
+version = "0.1.1"
 description = "Read and create GitHub pull requests, issues and commit checks over the GitHub REST API."
 license = "MIT"
 repository = "https://github.com/kumikit/kumikit-plugin-github"
