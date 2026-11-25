@@ -117,7 +117,7 @@ dependencies = [
 [[package]]
 name = "kumikit-plugin"
 version = "0.1.0"
-source = "git+https://github.com/kumikit/kumikit?rev=c09e83d596c1eebbed7e574187f7fcd608e51efa#c09e83d596c1eebbed7e574187f7fcd608e51efa"
+source = "git+https://github.com/kumikit/kumikit?rev=0fa256e528058d05b42d4b09bf76b028865370ca#0fa256e528058d05b42d4b09bf76b028865370ca"
 dependencies = [
  "wasip2",
  "wit-bindgen 0.61.1",
@@ -126,7 +126,7 @@ dependencies = [
 [[package]]
 name = "kumikit-tool"
 version = "0.1.0"
-source = "git+https://github.com/kumikit/kumikit?rev=c09e83d596c1eebbed7e574187f7fcd608e51efa#c09e83d596c1eebbed7e574187f7fcd608e51efa"
+source = "git+https://github.com/kumikit/kumikit?rev=0fa256e528058d05b42d4b09bf76b028865370ca#0fa256e528058d05b42d4b09bf76b028865370ca"
 dependencies = [
  "kumikit-plugin",
  "wit-bindgen 0.61.1",
